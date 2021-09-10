@@ -7,12 +7,12 @@ declare(strict_types=1);
 
 namespace Xigen\AddToCart\Helper;
 
-use Magento\Framework\App\Helper\AbstractHelper;
-use Magento\Framework\App\ActionInterface;
 use Magento\Catalog\Model\Product;
-use Magento\Framework\Url\Helper\Data;
 use Magento\Checkout\Helper\Cart;
+use Magento\Framework\App\ActionInterface;
+use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
+use Magento\Framework\Url\Helper\Data;
 
 class AddToCart extends AbstractHelper
 {
