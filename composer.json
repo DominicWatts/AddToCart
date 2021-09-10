@@ -11,6 +11,12 @@
         }
     ],
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
     "require": {
         "magento/framework": "*",
         "php": ">=7.1.0",
