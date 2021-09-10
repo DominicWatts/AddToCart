@@ -1,0 +1,28 @@
+{
+    "name": "dominicwatts/addtocart",
+    "description": "Magento 2 Add to cart helper - just drop in and go - avoid template block inheritance issues",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/framework": "*",
+        "php": ">=7.1.0",
+        "magento/module-catalog": "*",
+        "magento/module-checkout": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Xigen\\AddToCart\\": ""
+        }
+    }
+}
